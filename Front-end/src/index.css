@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.errorMessage {
+  color: red;
+}
+
+header > a {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  margin: 0.25em 0.5em;
+  background: #c8c8c8;
+  color: black;
+  text-decoration: none;
+}
+
+header > a:hover {
+  background: #ececec
+}
+
+.active {
+  background: #696969;
+  color: white;
+}
